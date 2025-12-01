@@ -1,0 +1,25 @@
+{
+  "name": "encomenda-bolo",
+  "version": "0.1.0",
+  "description": "Sistema CRUD de encomenda de bolo - trabalho acadêmico",
+  "main": "src/server.js",
+  "scripts": {
+    "test": "jest --runInBand",
+    "start": "node src/server.js",
+    "start-frontend": "npx http-server frontend -p 8080",
+    "test:e2e": "jest --config e2e/jest.config.js --runInBand"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "chromedriver": "^116.0.0",
+    "jest": "^29.0.0",
+    "selenium-webdriver": "^4.14.0",
+    "supertest": "^6.3.3"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.8",
+    "express": "^4.18.2"
+  }
+}
